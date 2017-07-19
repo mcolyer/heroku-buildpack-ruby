@@ -15,6 +15,7 @@ class LanguagePack::Ruby
         post_bundler
         create_database_yml
         install_binaries
+        run_assets_precompile_rake_task
         prepare_tests
       end
       super
